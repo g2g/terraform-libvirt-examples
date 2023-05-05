@@ -21,7 +21,7 @@ provider "libvirt" {
 resource "libvirt_volume" "os_image" {
   name = "${var.hostname}-os_image"
   pool = "default"
-  source = "https://cloud-images.ubuntu.com/jammy/current/jammy-server-cloudimg-amd64.img"
+  source = "https://geo.mirror.pkgbuild.com/images/latest/Arch-Linux-x86_64-cloudimg.qcow2"
   format = "qcow2"
 }
 
