@@ -78,7 +78,7 @@ resource "libvirt_domain" "domain-ubuntu" {
   }
 }
 
-terraform { 
+terraform {
   required_version = ">= 0.12"
 }
 
