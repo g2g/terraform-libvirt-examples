@@ -1,3 +1,11 @@
+terraform {
+  required_providers {
+    libvirt = {
+      source = "dmacvicar/libvirt"
+    }
+  }
+}
+
 # variables that can be overriden
 variable "hostname" { default = "net-install" }
 variable "domain" { default = "example.com" }
