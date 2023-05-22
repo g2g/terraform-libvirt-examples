@@ -27,7 +27,7 @@ resource "libvirt_domain" "domain-ubuntu" {
   memory = var.memoryMB
   vcpu = var.cpu
 
-  disk { file = pathexpand("~/Downloads/ubuntu-18.04.4-live-server-amd64.iso") }
+  disk { file = pathexpand("~/Downloads/ubuntu-20.04.6-live-server-amd64.iso") }
   disk { volume_id = libvirt_volume.os_image.id }
   boot_device { dev = [ "cdrom", "hd", "network" ] }
 

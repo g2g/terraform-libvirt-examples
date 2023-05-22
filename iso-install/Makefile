@@ -23,7 +23,7 @@ metadata:
 	terraform refresh && terraform output ips
 
 get-iso:
-	wget -P ~/Downloads http://releases.ubuntu.com/18.04/ubuntu-18.04.4-live-server-amd64.iso
+	wget -P ~/Downloads http://releases.ubuntu.com/20.04/ubuntu-20.04.6-live-server-amd64.iso
 
 ## list make targets
 ## https://stackoverflow.com/questions/4219255/how-do-you-get-the-list-of-targets-in-a-makefile
