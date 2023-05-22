@@ -1,5 +1,6 @@
 .terraform*
 *.tfstate
 *.backup
+ansible-role-*/
 id_rsa*
 mini.iso
